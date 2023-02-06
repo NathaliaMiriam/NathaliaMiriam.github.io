@@ -9,18 +9,28 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Olá, mundo! Me chamo <span className="purple">Nathália Miriam</span>
-            , tenho 26 anos e sempre morei em{" "}
-            <span className="purple"> São Paulo, Brasil.</span>
+            , tenho <span className="purple"> 26 anos </span> e sempre morei em{" "}
+            <span className="purple"> São Paulo</span>, Brasil.
             <br />
-            Me graduarei em Análise e Desenvolvimento de Sistemas em Dezembro de
-            2023!
+            Estou cursando{" "}
+            <span className="purple">
+              {" "}
+              Análise e Desenvolvimento de Sistemas{" "}
+            </span>{" "}
+            com previsão de conclusão em Dezembro de 2023.
+            <br />
+            Me considero <span className="purple"> muito criativa</span>, sempre{" "}
+            <span className="purple">curiosa</span> para aprender coisas novas,
+            <span className="purple"> atenta</span> a detalhes,{" "}
+            <span className="purple"> paciente</span> e
+            <span className="purple"> resiliente</span>.
             <br />
             <br />
             Além de codar, curto muito:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Atividades com a minha família
+              <ImPointRight /> Atividades em família
             </li>
             <li className="about-activity">
               <ImPointRight /> Me exercitar

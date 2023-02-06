@@ -19,12 +19,11 @@ function Home2() {
               PERMITA <span className="purple"> APRESENTAR-ME </span>:
             </h2>
             <p className="home-about-body">
-              Estou em constante movimento e aprendizado. Atualmente em
-              transição de carreira para a área de Tech, apaixonada por todo
-              esse ecossistema!
+              Atualmente, tenho como objetivo profissional entrar para a área
+              Tech e me aprofundar cada vez mais neste universo.
               <br />
               <br />
-              Focando meu aprendizado em
+              Estou focando meu aprendizado em
               <i>
                 <b className="purple">
                   {" "}
@@ -33,16 +32,17 @@ function Home2() {
               </i>
               <br />
               <br />
+              Mas, como sou muito curiosa, sempre que possível estou de olho
+              numa linguagem ou outra, aprendendo novas técnicas e ferramentas,
+              a fim de aumentar o meu repertório.
+              <br />
+              <br />
               Minha área de interesse é construir interfaces dinâmicas,
-              acessíveis e que encantam os usuários, seja no
+              acessíveis e que encantem os usuários, seja no
               <i>
                 <b className="purple"> Desenvolvimento Web </b> ou no{" "}
                 <b className="purple">Desenvolvimento de Aplicativos.</b>
               </i>
-              <br />
-              <br />
-              Sou muito curiosa e sempre que possível estou aprendendo coisas
-              novas!
               {/* with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
