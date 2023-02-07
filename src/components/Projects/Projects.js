@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import SiteResponsivo from "../../Assets/Projects/project-site-responsivo.png";
 import NNRoupasPet from "../../Assets/Projects/project-nn-roupas-pet.png";
 import PokedexVanilla from "../../Assets/Projects/project-pokedex-vanilla.png";
 import NodeAPI from "../../Assets/Projects/project-node-api.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import Form from "../../Assets/Projects/project-form.png";
 import PokedexReact from "../../Assets/Projects/project-pokedex-react.png";
 
 function Projects() {
@@ -17,7 +17,7 @@ function Projects() {
         <h1 className="project-heading">
           Meus <strong className="purple">Projetos Recentes </strong>
         </h1>
-        <p style={{ color: "white" }}>Em Construção...</p>
+
         {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
@@ -36,7 +36,7 @@ function Projects() {
                 imgPath={PokedexReact}
                 isBlog={false}
                 title="Pokedex-react"
-                description="Pokedex de página única utilizando React.js, MUI, Axios e a PokéAPI pública."
+                description="Pokedex de página única (SPA) utilizando React.js, MUI, Axios e a PokéAPI pública."
                 ghLink="https://github.com/NathaliaMiriam/Pokedex-react"
                 demoLink="https://nathaliamiriam.github.io/Pokedex-react/"
               />
@@ -55,10 +55,10 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={leaf}
+                imgPath={SiteResponsivo}
                 isBlog={false}
                 title="Responsive-website"
-                description="Página responsiva feita com JavaScript, HTML e SCSS."
+                description="Página responsiva simulando uma landing page feita com JavaScript, HTML e SCSS."
                 ghLink="https://github.com/NathaliaMiriam/Responsive-website"
                 demoLink="https://nathaliamiriam.github.io/Responsive-website/"
               />
@@ -66,7 +66,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={suicide}
+                imgPath={Form}
                 isBlog={false}
                 title="Form"
                 description="Formulário simples e ao mesmo tempo elegante feito com HTML e CSS."
