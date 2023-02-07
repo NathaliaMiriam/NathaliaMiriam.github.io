@@ -20,7 +20,8 @@ function AboutCard() {
             com previsão de conclusão em Dezembro de 2023.
             <br />
             Me considero <span className="purple"> muito criativa</span>, sempre{" "}
-            <span className="purple">curiosa</span> para aprender coisas novas,
+            <span className="purple"> curiosa</span> e{" "}
+            <span className="purple"> disposta</span> à aprender coisas novas,
             <span className="purple"> atenta</span> a detalhes,{" "}
             <span className="purple"> paciente</span> e
             <span className="purple"> resiliente</span>.
@@ -30,7 +31,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Atividades em família
+              <ImPointRight /> Atividades em família e amigos
             </li>
             <li className="about-activity">
               <ImPointRight /> Me exercitar

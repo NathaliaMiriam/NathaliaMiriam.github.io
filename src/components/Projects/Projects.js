@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import NNRoupasPet from "../../Assets/Projects/project-nn-roupas-pet.png";
+import PokedexVanilla from "../../Assets/Projects/project-pokedex-vanilla.png";
+import NodeAPI from "../../Assets/Projects/project-node-api.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import PokedexReact from "../../Assets/Projects/project-pokedex-react.png";
 
 function Projects() {
   return (
@@ -22,7 +22,7 @@ function Projects() {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={chatify}
+                imgPath={NodeAPI}
                 isBlog={false}
                 title="Node-MySQL-API"
                 description="API com Node.js e MySQL utilizando CRUD completo."
@@ -33,7 +33,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={bitsOfCode}
+                imgPath={PokedexReact}
                 isBlog={false}
                 title="Pokedex-react"
                 description="Pokedex de página única utilizando React.js, MUI, Axios e a PokéAPI pública."
@@ -44,7 +44,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={editor}
+                imgPath={PokedexVanilla}
                 isBlog={false}
                 title="Pokedex"
                 description="Pokedex responsiva feita com JavaScript assíncrono, HTML, CSS e a PokéAPI pública"
@@ -77,7 +77,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={emotion}
+                imgPath={NNRoupasPet}
                 isBlog={false}
                 title="NN-roupas-pet"
                 description="Projeto em HTML e CSS para um ateliê de roupas e acessórios customizados para Pets."
