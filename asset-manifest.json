@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7249fb0e.css",
-    "main.js": "/static/js/main.b56a422f.js",
+    "main.js": "/static/js/main.211d225e.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/project-nn-roupas-pet.png": "/static/media/project-nn-roupas-pet.e9cb34952a2b3359fba1.png",
@@ -15,15 +15,16 @@
     "static/media/code-pic.jpg": "/static/media/code-pic.8fd1d066925735e9a17e.jpg",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/home-pc-logo.jpg": "/static/media/home-pc-logo.4321dde910e32926ed5b.jpg",
+    "static/media/logo_nat_miriam.png": "/static/media/logo_nat_miriam.2ec4259636c2a9bceb18.png",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
     "main.7249fb0e.css.map": "/static/css/main.7249fb0e.css.map",
-    "main.b56a422f.js.map": "/static/js/main.b56a422f.js.map",
+    "main.211d225e.js.map": "/static/js/main.211d225e.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7249fb0e.css",
-    "static/js/main.b56a422f.js"
+    "static/js/main.211d225e.js"
   ]
 }
