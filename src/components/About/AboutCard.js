@@ -22,7 +22,7 @@ function AboutCard() {
             Me considero <span className="purple"> muito criativa</span>, sempre{" "}
             <span className="purple"> curiosa</span> e{" "}
             <span className="purple"> disposta</span> à aprender coisas novas,
-            <span className="purple"> atenta</span> a detalhes,{" "}
+            <span className="purple"> atenta</span> aos detalhes,{" "}
             <span className="purple"> paciente</span> e
             <span className="purple"> resiliente</span>.
             <br />
