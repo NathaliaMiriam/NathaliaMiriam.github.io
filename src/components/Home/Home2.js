@@ -19,29 +19,25 @@ function Home2() {
               PERMITA <span className="purple"> APRESENTAR-ME </span>:
             </h2>
             <p className="home-about-body">
-              Atualmente, tenho como objetivo profissional entrar para a área
-              Tech e me aprofundar cada vez mais neste universo.
+              Atualmente desenvolvo aplicações Mobile Android como Freelance e
+              busco uma oportunidade de emprego como Desenvolvedora Mobile ou
+              Frontend.
               <br />
               <br />
               Estou focando meu aprendizado em
               <i>
                 <b className="purple">
                   {" "}
-                  React.js, Javascript e Kotlin (Android).{" "}
+                  Android Nativo com Kotlin, React.js e Javascript.{" "}
                 </b>
               </i>
               <br />
               <br />
-              Mas, como sou muito curiosa, sempre que possível estou de olho
-              numa linguagem ou outra, aprendendo novas técnicas e ferramentas,
-              a fim de aumentar o meu repertório.
-              <br />
-              <br />
-              Minha área de interesse é construir interfaces dinâmicas,
-              acessíveis e que encantem os usuários, seja no
+              Tenho interesse em construir interfaces dinâmicas, acessíveis e
+              que encantem os usuários, seja no
               <i>
-                <b className="purple"> Desenvolvimento Web </b> ou no{" "}
-                <b className="purple">Desenvolvimento de Aplicativos.</b>
+                <b className="purple"> Desenvolvimento Mobile </b> ou no{" "}
+                <b className="purple">Desenvolvimento Web.</b>
               </i>
             </p>
           </Col>

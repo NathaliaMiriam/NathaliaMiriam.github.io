@@ -6,6 +6,7 @@ import SiteResponsivo from "../../Assets/Projects/project-site-responsivo.png";
 import NNRoupasPet from "../../Assets/Projects/project-nn-roupas-pet.png";
 import PokedexVanilla from "../../Assets/Projects/project-pokedex-vanilla.png";
 import NodeAPI from "../../Assets/Projects/project-node-api.png";
+import embeauty from "../../Assets/Projects/embeauty.png";
 import Form from "../../Assets/Projects/project-form.png";
 import PokedexReact from "../../Assets/Projects/project-pokedex-react.png";
 
@@ -20,6 +21,17 @@ function Projects() {
 
         {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={embeauty}
+                isBlog={false}
+                title="embeauty"
+                description="Aplicativo para Gestão de Salões de Beleza em Android Nativo (Kotlin), utilizando a SDK do Firebase."
+                ghLink="https://github.com/NYTechnologies/embeauty"
+                //demoLink="https://chatify-49.web.app/"
+              />
+            </Col>
+
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={NodeAPI}

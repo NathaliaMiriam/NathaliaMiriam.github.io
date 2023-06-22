@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiKotlin, SiMysql } from "react-icons/si";
+import { SiKotlin, SiMysql, SiFirebase } from "react-icons/si";
 import { ImAndroid } from "react-icons/im";
 import {
   DiJavascript1,
@@ -16,6 +16,15 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
+        <ImAndroid />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKotlin />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -29,15 +38,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiKotlin />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <ImAndroid />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />

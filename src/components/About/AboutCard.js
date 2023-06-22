@@ -8,8 +8,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Olá, mundo! Me chamo <span className="purple">Nathália Miriam</span>
-            , tenho <span className="purple"> 26 anos </span> e sempre morei em{" "}
+            Me chamo <span className="purple">Nathália Miriam</span>, tenho{" "}
+            <span className="purple"> 27 anos </span> e sempre morei em{" "}
             <span className="purple"> São Paulo</span>, Brasil.
             <br />
             Estou cursando{" "}
