@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.7249fb0e.css",
-    "main.js": "/static/js/main.1661680a.js",
+    "main.js": "/static/js/main.4330bca7.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/project-nn-roupas-pet.png": "/static/media/project-nn-roupas-pet.e9cb34952a2b3359fba1.png",
     "static/media/project-site-responsivo.png": "/static/media/project-site-responsivo.7cc7243d25a8ab353c57.png",
     "static/media/project-pokedex-react.png": "/static/media/project-pokedex-react.e75ca4640a4c03599f82.png",
     "static/media/project-pokedex-vanilla.png": "/static/media/project-pokedex-vanilla.4f2b6b1721e80db4471e.png",
+    "static/media/tipcalculator.png": "/static/media/tipcalculator.c573d0094f387329e8d6.png",
     "static/media/project-node-api.png": "/static/media/project-node-api.cafd6a856442c2a92c02.png",
+    "static/media/tasks.png": "/static/media/tasks.a15addd9e01ffa9a4a66.png",
     "static/media/CV_NATHALIA_MIRIAM_PORTFÓLIO.pdf": "/static/media/CV_NATHALIA_MIRIAM_PORTFÓLIO.15d665e693d305b17646.pdf",
     "static/media/profile-pic.jpg": "/static/media/profile-pic.1c1b64941b721448dc34.jpg",
     "static/media/embeauty.png": "/static/media/embeauty.52d50912147e40cac0a7.png",
@@ -20,12 +22,12 @@
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
     "main.7249fb0e.css.map": "/static/css/main.7249fb0e.css.map",
-    "main.1661680a.js.map": "/static/js/main.1661680a.js.map",
+    "main.4330bca7.js.map": "/static/js/main.4330bca7.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7249fb0e.css",
-    "static/js/main.1661680a.js"
+    "static/js/main.4330bca7.js"
   ]
 }
