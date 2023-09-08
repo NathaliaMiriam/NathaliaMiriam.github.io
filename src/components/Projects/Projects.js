@@ -9,6 +9,8 @@ import NodeAPI from "../../Assets/Projects/project-node-api.png";
 import embeauty from "../../Assets/Projects/embeauty.png";
 import Form from "../../Assets/Projects/project-form.png";
 import PokedexReact from "../../Assets/Projects/project-pokedex-react.png";
+import TipCalculator from "../../Assets/Projects/tipcalculator.png";
+import Tasks from "../../Assets/Projects/tasks.png";
 
 function Projects() {
   return (
@@ -16,7 +18,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Meus <strong className="purple">Projetos Recentes </strong>
+          MEUS <strong className="purple">PROJETOS RECENTES </strong>
         </h1>
 
         {
@@ -25,9 +27,31 @@ function Projects() {
               <ProjectCard
                 imgPath={embeauty}
                 isBlog={false}
-                title="embeauty"
+                title="App-embeauty"
                 description="Aplicativo para Gestão de Salões de Beleza em Android Nativo (Kotlin), utilizando a SDK do Firebase."
                 ghLink="https://github.com/NYTechnologies/embeauty"
+                //demoLink="https://chatify-49.web.app/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={TipCalculator}
+                isBlog={false}
+                title="App-TipCalculator"
+                description="Aplicativo de uma calculadora de gorjetas com experiência de usuário mais sofisticada por meio dos Componentes do Material Design (MDC)."
+                ghLink="https://github.com/NathaliaMiriam/TipCalculatorBR-app-android"
+                //demoLink="https://chatify-49.web.app/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={Tasks}
+                isBlog={false}
+                title="App-Tasks"
+                description="Aplicativo que cria e gerencia tarefas. Feito com o auxílio do Android SDK, RecyclerView, Clean Architecture e Arq. MVVM, Room e Retrofit."
+                ghLink="https://github.com/NathaliaMiriam/Tasks-app-android"
                 //demoLink="https://chatify-49.web.app/"
               />
             </Col>
@@ -48,7 +72,7 @@ function Projects() {
                 imgPath={PokedexReact}
                 isBlog={false}
                 title="Pokedex-react"
-                description="Pokedex de página única (SPA) utilizando React.js, MUI, Axios e a PokéAPI pública."
+                description="Pokedex de página única (SPA) utilizando React, MUI, Axios e a PokéAPI pública."
                 ghLink="https://github.com/NathaliaMiriam/Pokedex-react"
                 demoLink="https://nathaliamiriam.github.io/Pokedex-react/"
               />
@@ -58,7 +82,7 @@ function Projects() {
               <ProjectCard
                 imgPath={PokedexVanilla}
                 isBlog={false}
-                title="Pokedex"
+                title="Pokedex-vanilla"
                 description="Pokedex responsiva feita com JavaScript assíncrono, HTML, CSS e a PokéAPI pública"
                 ghLink="https://github.com/NathaliaMiriam/Pokedex"
                 demoLink="https://nathaliamiriam.github.io/Pokedex/"
@@ -81,7 +105,7 @@ function Projects() {
                 imgPath={Form}
                 isBlog={false}
                 title="Form"
-                description="Formulário simples e ao mesmo tempo elegante feito com HTML e CSS."
+                description="Formulário de serviços, simples e ao mesmo tempo elegante, feito com HTML e CSS."
                 ghLink="https://github.com/NathaliaMiriam/Form"
                 demoLink="https://nathaliamiriam.github.io/Form/"
               />
@@ -91,7 +115,7 @@ function Projects() {
               <ProjectCard
                 imgPath={NNRoupasPet}
                 isBlog={false}
-                title="NN-roupas-pet"
+                title="N&N-RoupasPet"
                 description="Projeto em HTML e CSS para um ateliê de roupas e acessórios customizados para Pets."
                 ghLink="https://github.com/NathaliaMiriam/NN-roupas-pet"
                 demoLink="https://nathaliamiriam.github.io/NN-roupas-pet/"

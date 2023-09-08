@@ -19,25 +19,30 @@ function AboutCard() {
             </span>{" "}
             com previsão de conclusão em Dezembro de 2023.
             <br />
-            Me considero <span className="purple"> muito criativa</span>, sempre{" "}
+            Me considero muito <span className="purple"> criativa</span>, sempre{" "}
             <span className="purple"> curiosa</span> e{" "}
             <span className="purple"> disposta</span> à aprender coisas novas,
             <span className="purple"> atenta</span> aos detalhes,{" "}
-            <span className="purple"> paciente</span> e
-            <span className="purple"> resiliente</span>.
+            <span className="purple"> comunicativa</span>,
+            <span className="purple"> paciente</span>,
+            <span className="purple"> resiliente</span> e com
+            <span className="purple"> pensamento crítico</span>.
             <br />
             <br />
             Além de codar, curto muito:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Atividades em família e amigos
+              <ImPointRight /> atividades em família e amigos
             </li>
             <li className="about-activity">
-              <ImPointRight /> Me exercitar
+              <ImPointRight /> me exercitar
             </li>
             <li className="about-activity">
-              <ImPointRight /> Viajar bastante
+              <ImPointRight /> viajar
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> escutar música e assistir séries
             </li>
           </ul>
 
