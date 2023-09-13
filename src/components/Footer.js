@@ -11,7 +11,7 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container fluid className="footer">
+    <Container fluid className="footer" style={{ marginTop: "1px" }}>
       <Row>
         <Col md="12" className="footer-copywright">
           <h3>Copyright © {year} Nathália Miriam</h3>

@@ -15,14 +15,13 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h2 style={{ fontSize: "2.0em" }}>
-              PERMITA <span className="purple"> APRESENTAR-ME </span>:
+            <h2 style={{ justifyContent: "center", fontSize: "1.8em" }}>
+              MINHAS <span className="purple"> HARD SKILLS </span>:
             </h2>
             <p className="home-about-body">
-              Atualmente, desenvolvo aplicações Mobile Android como Freelance e
-              meu foco como desenvolvedora está em desenvolver interfaces
-              completas e impactantes que tornem a experiência do usuário
-              prática e agradável, seja no,{" "}
+              Como Desenvolvedora Mobile e Frontend tenho o foco em criar
+              interfaces completas e impactantes que tornem a experiência do
+              usuário prática e agradável, seja no{" "}
               <b className="purple">Desenvolvimento Mobile</b> ou{" "}
               <b className="purple">Desenvolvimento Web</b>.
               <br />
@@ -43,7 +42,7 @@ function Home2() {
                 para consumo de APIs, Room, DataBase, SQLite, Clean Architecture
                 e Arquitetura MVVM, além de Testes Unitários.
                 <br />
-                <b className="purple">- no desenvolvimento Frontend Web </b>
+                <b className="purple"> - no desenvolvimento Frontend Web </b>
                 possuo experiência em: React, JavaScript, Responsividade, Axios,
                 Fetch e AJAX para consumo de APIs, Node.js e NPM, HTML e JSX, e
                 estilização com CSS, SCSS e MUI Components.
@@ -68,7 +67,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h2>ME ENCONTRE TAMBÉM EM</h2>
+            {/* <h3>ME ENCONTRE TAMBÉM EM</h3> */}
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
