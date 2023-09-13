@@ -10,7 +10,7 @@ Portfólio responsivo de 3 páginas feito com React e Bootstrap.
 
 - primeira página -> falo sobre as minhas hard skills e deixo os links para que me encontrem em outras redes:
 <h1>
-  <img src="docs/images/image_first.png"  width="650" height="600">
+  <img src="docs/images/image_fiveth.png"  width="650" height="600">
 </h1>
 <br>
 
@@ -24,6 +24,7 @@ Portfólio responsivo de 3 páginas feito com React e Bootstrap.
 <h1>
   <img src="docs/images/image_third.png"  width="650" height="600">
 </h1>
+<br>
 
 - layout do portfólio em um dispositivo móvel:
 <h1>
