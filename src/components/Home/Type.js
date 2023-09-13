@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Desenvolvedora Mobile & Frontend Jr.",
           "Estudante de ADS",
-          "Be Welcome :D",
+          "Be Welcome! :D",
         ],
         autoStart: true,
         loop: true,
