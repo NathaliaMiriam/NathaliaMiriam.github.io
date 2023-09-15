@@ -37,21 +37,22 @@ function Home2() {
               <i>
                 <br />
                 <b className="purple"> - no desenvolvimento Android Nativo </b>
-                trabalho com Kotlin e possuo experiência em: Android SDK,
-                Lifecycle, LiveData, RecyclerView, Material Design, Retrofit
-                para consumo de APIs, Room, DataBase, SQLite, Clean Architecture
-                e Arquitetura MVVM, além de Testes Unitários.
+                trabalho com Kotlin e possuo experiência em: Android SDK
+                (Lifecycle, LiveData, ViewModel), ViewGroups (diferentes tipos
+                de Layout), RecyclerView, Material Design, Retrofit para consumo
+                de APIs, Room, DataBase, SQLite, Design Patterns, Arquitetura de
+                Software (Clean Architecture e MVVM) e Testes Unitários.
                 <br />
                 <b className="purple"> - no desenvolvimento Frontend Web </b>
                 possuo experiência em: React, JavaScript, Responsividade, Axios,
                 Fetch e AJAX para consumo de APIs, Node.js e NPM, HTML e JSX, e
                 estilização com CSS, SCSS e MUI Components.
-                <br />
-                <br />
-                Também possuo experiência em: Git, GitHub, APIs RESTful, SQL e
-                NoSQL, Firebase SDK, Metodologias Ágeis, UX/UI, Redes e Inglês
-                Técnico.
               </i>
+              <br />
+              <br />
+              Também possuo experiência em: Git, GitHub, consumo de APIs
+              RESTful, SQL e NoSQL, Firebase SDK, Metodologias Ágeis, UX e UI
+              Design, Redes e Inglês Técnico.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
