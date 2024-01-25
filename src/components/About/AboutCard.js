@@ -8,16 +8,16 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Me chamo <span className="purple">Nathália Miriam</span>, tenho{" "}
-            <span className="purple"> 27 anos </span> e sempre morei em{" "}
-            <span className="purple"> São Paulo</span>, Brasil.
+            Tenho <span className="purple"> 27 anos</span>, sempre morei em{" "}
+            <span className="purple"> São Paulo</span>, Brasil e{" "}
+            <span className="purple">amo</span> tecnologia.
             <br />
-            Estou cursando{" "}
+            Sou formada em{" "}
             <span className="purple">
               {" "}
               Análise e Desenvolvimento de Sistemas{" "}
             </span>{" "}
-            com previsão de conclusão em Dezembro de 2023.
+            desde dezembro de 2023.
             <br />
             Me considero muito <span className="purple"> criativa</span>, sempre{" "}
             <span className="purple"> curiosa</span> e{" "}
@@ -29,7 +29,7 @@ function AboutCard() {
             <span className="purple"> pensamento crítico</span>.
             <br />
             <br />
-            Além de codar, curto muito:
+            Além de codar, <span className="purple">curto muito</span>:
           </p>
           <ul>
             <li className="about-activity">
@@ -42,7 +42,7 @@ function AboutCard() {
               <ImPointRight /> viajar
             </li>
             <li className="about-activity">
-              <ImPointRight /> escutar música e assistir séries
+              <ImPointRight /> escutar música, ler e assistir séries
             </li>
           </ul>
 

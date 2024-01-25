@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import CodeImg from "../../Assets/code-pic.jpg";
+import CodeImg from "../../Assets/mine8.jpg";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -39,7 +39,7 @@ function About() {
               src={CodeImg}
               alt="code"
               className="img-fluid"
-              style={{ borderRadius: "4%" }}
+              style={{ borderRadius: "4%", maxHeight: "450px", marginLeft: 95 }}
             />
           </Col>
         </Row>

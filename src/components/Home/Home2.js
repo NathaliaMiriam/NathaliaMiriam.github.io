@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/profile-pic.jpg";
+import myImg from "../../Assets/home-pc-logo.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -15,8 +15,14 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h2 style={{ justifyContent: "center", fontSize: "1.8em" }}>
-              MINHAS <span className="purple"> HARD SKILLS </span>:
+            <h2
+              style={{
+                justifyContent: "center",
+                fontSize: "1.8em",
+              }}
+            >
+              PRINCIPAIS <span className="purple"> HARD </span> E{" "}
+              <span className="purple"> SOFT SKILLS </span>:
             </h2>
             <p className="home-about-body">
               Como Desenvolvedora Mobile e Frontend tenho o foco em criar
@@ -32,27 +38,41 @@ function Home2() {
                 </b> */}
               </i>
               <br />
-              Até o momento, minhas habilidades se estendem pelas seguintes
-              tecnologias e ferramentas:
+              Minhas aplicações possuem código limpo e boa arquitetura.
+              <b className="purple"> Utilizo</b>:
               <i>
                 <br />
-                <b className="purple"> - no desenvolvimento Android Nativo </b>
-                trabalho com Kotlin e possuo experiência em: Android SDK
-                (Lifecycle, LiveData, ViewModel), ViewGroups (diferentes tipos
-                de Layout), RecyclerView, Material Design, Retrofit para consumo
-                de APIs, Room, DataBase, SQLite, Design Patterns, Arquitetura de
-                Software (Clean Architecture e MVVM) e Testes Unitários.
                 <br />
-                <b className="purple"> - no desenvolvimento Frontend Web </b>
-                possuo experiência em: React, JavaScript, Responsividade, Axios,
-                Fetch e AJAX para consumo de APIs, Node.js e NPM, HTML e JSX, e
-                estilização com CSS, SCSS e MUI Components.
+                - Kotlin; <br />
+                - Android SDK; <br />
+                - Jetpack Compose; <br />
+                - Material Design; <br />
+                - JavaScript; <br />
+                - React.js; <br />
+                - Node.js; <br />
+                - HTML5; <br />
+                - CSS3; <br />
+                - SQLite e MySQL; <br />
+                - Testes Unitários. <br />
+                <br />
+                Algumas das minhas{" "}
+                <b className="purple">competências técnicas</b> e{" "}
+                <b className="purple">pessoais</b> são:
+                <br />
+                <br />
+                - Princípios sólidos; <br />
+                - Arquitetura MVVM; <br />
+                - Responsividade; <br />
+                - APIs RESTful; <br />
+                - Firebase SDK; <br />
+                - Metodologias ágeis, principalmente Scrum; <br />
+                - Busca por melhores resultados e qualidade de entrega; <br />
+                - Aprendizagem rápida; <br />
+                - Pensamento crítico; <br />
+                - Ótima comunicação; <br />
+                - Organização e pontualidade; <br />
+                - Colaboração e trabalho em equipe. <br />
               </i>
-              <br />
-              <br />
-              Também possuo experiência em: Git, GitHub, consumo de APIs
-              RESTful, SQL e NoSQL, Firebase SDK, Metodologias Ágeis, UX e UI
-              Design, Redes e Inglês Técnico.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -61,7 +81,7 @@ function Home2() {
                 src={myImg}
                 className="img-fluid"
                 alt="avatar"
-                style={{ borderRadius: "50%" }}
+                style={{ borderRadius: "30%" }}
               />
             </Tilt>
           </Col>
